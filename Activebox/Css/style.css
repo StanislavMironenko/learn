@@ -1,4 +1,6 @@
 body{
+    
+
     margin: 0;
 
     font-family: 'Raleway', sans-serif;
@@ -150,34 +152,40 @@ text-transform: uppercase;
 ===============================*/
 .features {
 
-    display: flex;
-    margin: 100px 0;
+    
+    display: flex ;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    width: 100%;
+    margin: 90px auto;
 
+   
 }
 
 .features__items {
-    width: 33,33333%;
-    padding: 0 30px;
-
+    width: 33.33333%;
+    padding: 35px 20px;
     text-align: center;
 
 }
 .features__icon {
-    margin: 20px;
+    margin: 25px;
 }
 
  .features__title {
-     margin-bottom: 15px;
+     margin-bottom: 20px;
+     
      font-size: 14px;
-     color: 2d3033;
+     color: #2d3033;
      font-weight: 700;
      text-transform: uppercase;
  }
 
- .features__tex {
+ .features__text {
     font-size: 14px;
     color: #6c7279;
     line-height: 1.5;
+
 
  }
 
