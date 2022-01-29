@@ -87,7 +87,8 @@ text-transform: uppercase;
     height: 750px;
     padding-top: 100px;
     background-color: #31344e;
-    background: url("../img/intro.jpg") ;
+    background: url("../img/intro.jpg") center no-repeat;
+    background-size: cover;
 }
 .intro__inner {
     width: 100%;
