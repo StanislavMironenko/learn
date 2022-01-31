@@ -19,10 +19,10 @@
         <div class="main_content_section">
             <!--about me-->
             <div class="about_me_section">
-                <h2>Front-End Developer</h2>
-                <h1>Anton Chornyi</h1>
+                <h2 class="about_me_professional">Front-End Developer</h2>
+                <h1 class="about_me_name">Anton Chornyi</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore
                     et
                     dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -30,61 +30,79 @@
                     lacus vel facilisis. </p>
             </div>
             <!--My progect section-->
-            <div class="My_progect_section">
-                <h3>Projects</h3>
+            <div class="My_project_section">
+                <h3 class="main_content_title">Projects</h3>
 
-                <ol>
-                    <li><a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                        <span>..........</span>
-                        <span>[ HTML5, CSS3 ]</span></li>
-                        <li><a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                        <span>............</span>
-                        <span>[ JavaScript ]</span></li>
-                
-                        <li><a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                        <span>................</span>
-                        <span>[ React.js, Node.js ]</span></li>
+                <ol class="my_projets_list">
+                    <li class="my_project_items">
+                        <span class="my_project_text">
+                        <a href="https://hellenglish.goit.global/" class="my_projets_link">https://hellenglish.goit.global/</a>
+                        ..........
+                            <span class="my_project_br">[</span> HTML5, CSS3 <span class="my_project_br">]</span>
+                        </span>
+                    </li>
+                    <li class="my_project_items">
+                        <span class="my_project_text">
+                            <a href="https://cryptohub.goit.global/" class="my_projets_link">https://cryptohub.goit.global/</a>
+                        ............
+                            <span class="my_project_br">[</span> JavaScript <span  class="my_project_br">]</span>
+                        </span>
+                    </li>
+                    <li class="my_project_items">        
+                        <span class="my_project_text">
+                            <a href="https://kidslike.goit.global/" class="my_projets_link">https://kidslike.goit.global/</a>
+                            ................
+                            <span class="my_project_br">[</span> React.js, Node.js <span  class="my_project_br">]</span>
+                        </span>
+                    </li>    
                 </ol>
             </div>
             <!--Work Experience-->
             <div class="work_experience">
-                <h3>Work Experience</h3>
-                <div>
-                    <h4>Front-End Developer Freelance </h4>
-                    <p>September 2019 - up to now | Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                    <h4>Manager Roga & Kopyta New</h4>
-                    <p>March 2015 - October 2018 | Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
-                            magna
-                            aliqua. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
-
-                    <h4>Manager Roga & Kopyta LLC</h4>
-                    <p>June 2014 - February 2015 | Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
+                <h3 class="main_content_title">Work Experience</h3>
+                
+                <!-- my work company 1 -->
+                    <div class="my_work_expiriens_company_number">
+                        <h4 class="my_work_expiriens_position">Front-End Developer <span class="my_work_experience_company">Freelance</span> </h4>
+                        <p class="date">September 2019 - up to now <span class="my_work_expiriens_divider">|</span> Country</p>
+                        <ul class="my_work_expiriens_duties">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. </li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                        </ul>
+                    </div>    
+                <!-- my work company 2 -->     
+                    <div class="my_work_expiriens_company_number">
+                        <h4 class="my_work_expiriens_position">Manager <span class="my_work_experience_company">Roga & Kopyta New</span></h4>
+                        <p class="date">March 2015 - October 2018 <span class="my_work_expiriens_divider">|</span> Country</p>
+                        <ul class="my_work_expiriens_duties">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
+                                magna
+                                aliqua. </li>
+                            <li>Quis ipsum suspendisse ultrices gravida.</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                        </ul>
+                    </div>
+                    <!-- my work company 3 -->    
+                    <div class="my_work_expiriens_company_number">
+                        <h4 class="my_work_expiriens_position">Manager <span class="my_work_experience_company">Roga & Kopyta LLC</span></h4>
+                        <p class="date">June 2014 - February 2015 <span class="my_work_expiriens_divider">|</span> Country</p>
+                        <ul class="my_work_expiriens_duties">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                            <li>Quis ipsum suspendisse ultrices gravida.</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
             <!--Education-->
             <div>
-                <h3>Education</h3>
+                <h3 class="main_content_title">Education</h3>
                 <div>
-                    <h4>National University of Radioelectronics</h4>
-                    <h4>Management</h4>
-                    <p class="date">September 2009 - June 2014 | Country</p>
+                    <h4 class="my_work_experience_company">National University of Radioelectronics</h4>
+                    <h4 class="my_work_expiriens_position">Management</h4>
+                    <p class="date">September 2009 - June 2014 <span class="my_work_expiriens_divider">|</span> Country</p>
                 </div>
 
 
