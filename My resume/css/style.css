@@ -1,0 +1,92 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    color:  #595959;
+    font-size: 14px;
+    line-height: 24px
+    ;
+}
+.main_container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 1314px;
+    background-color: #fff;
+    margin: 40px;
+}
+.main_content_section {
+    padding: 40px;
+
+}
+.about_me_section{
+    width: 400px;
+    margin-bottom: 40px;
+}
+.My_progect_section{
+    width: 494px;
+    margin-bottom: 51px;
+   
+}
+.work_experience{
+    width: 525px;
+    margin-bottom: 43px;
+}
+
+
+/* sidbar section */
+.sidbar_section {
+    background-color: #1E2939;
+    color: #fff;
+    padding: 40px 0;
+
+}
+
+.sidbar_info{ 
+    margin-left: 40px;
+}
+.sidebar_title{
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 27px;
+    font-style: normal;
+
+}
+.contact_section_type{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+.contact_section_link{
+    font-style: normal;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color:#8E949C;
+}
+.sidbar_contacts{
+    margin: 50px 0;
+}
+.tech_Skills_section{
+margin-bottom: 40px;
+}
+
+.skill_list{
+    padding: 0 0 0 17px;
+}
+.skill_items{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+.skill_items_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    }
